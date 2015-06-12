@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+
+		<meta charset="utf-8">
+		<meta name="description" content="Afrinovate is the premier financial innovation lab in East Africa. We look to grow financial innovation across various platforms and empower the lives of the people of East Africa">
+		<meta name="keywords" content="Afrinovate, premier financial innovation lab in East Africa, financial innovation, empower the lives of the people of East Africa">
+		<meta name="author" content="john wamburu <wamburujohn@gmail.com> @johnwamburu">
+
+		<link rel="icon" href="/static/images/afrinovate.png">
+		<link rel="shortcut icon" href="/static/images/afrinovate.png" />
+		<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/static/css/style.css">
+		<link rel="stylesheet" href="/static/css/camera.css">
+		<link rel="stylesheet" href="/static/css/form.css">
+		<!--<script src="/static/js/jquery.js"></script>--> <!-- newer here -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="/static/js/jquery-migrate-1.1.1.js"></script>
+		<script src="/static/js/superfish.js"></script>
+		<script src="/static/js/forms.js"></script>
+		<script src="/static/js/jquery.ui.totop.js"></script>
+		<script src="/static/js/jquery.equalheights.js"></script>
+		<script src="/static/js/jquery.easing.1.3.js"></script>
+		<script src="/static/js/jquery.ui.totop.js"></script>
+		<script src="/static/js/tms-0.4.1.js"></script>
+
+		<!--site js and css-->
+		<script src="/static/js/bootstrap.min.js"></script>
+		<script src="/static/js/site.js"></script>
+		<script src="/static/js/bootbox.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.slider_wrapper')._TMS({
+					show:0,
+					pauseOnHover:false,
+					prevBu:'.prev',
+					nextBu:'.next',
+					playBu:false,
+					duration:800,
+					preset:'fade',
+					pagination:true,//'.pagination',true,'<ul></ul>'
+					pagNums:false,
+					slideshow:8000,
+					numStatus:false,
+					banners: 'fade',
+					waitBannerAnimation:false,
+					progressBar:false
+				});
+			});
+			$(document).ready(function(){
+				!function(){
+			var map=[]
+			 ,names=[]
+			 ,win=$(window)
+			 ,header=$('header')
+			 ,currClass
+			$('.content').each(function(n){
+			 map[n]=this.offsetTop
+			 names[n]=$(this).attr('id')
+			})
+			win
+			 .on('scroll',function(){
+				var i=0
+				while(map[i++]<=win.scrollTop());
+				if(currClass!==names[i-2])
+				currClass=names[i-2]
+				header.removeAttr("class").addClass(names[i-2])
+			 })
+			}(); });
+					function goToByScroll(id){
+				$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+				}
+				$(document).ready(function(){
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+		</script>
+		<!--[if lt IE 8]>
+			<div style=' clear: both; text-align:center; position: relative;'>
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+					<img src="/static/http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+				</a>
+			</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="/static/js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="/static/css/ie.css">
+		<![endif]-->
+
+		<style>
+			a{cursor:pointer}
+			a:hover, a:active{text-decoration:none}
+			.pagination > li > a, .pagination > li > span {border:none;}
+			.email{margin-left:0}
+			.bootbox-body{color:#39596E;font-size:1.1em}
+		</style>
+	</head>
+	<body class="">
+<!--==============================header=================================-->
+		<header class="page1">
+			<div class="container_12">
+				<div class="grid_12">
+					<h1><a href="#" onClick="goToByScroll('page1'); return false;"><img src="/static/images/logo.png" alt="Gerald Harris attorney at law"></a></h1>
+					<div class="menu_block">
+						<nav class="">
+							<ul class="sf-menu">
+								<li class="current men"><a onClick="goToByScroll('page1'); return false;" href="#">Home </a> <strong class="hover"></strong></li>
+								<li class=" men2"><a onClick="goToByScroll('page3'); return false;" href="#">Programs</a> <strong class="hover"></strong></li>
+								<li class="men1"><a onClick="goToByScroll('page2'); return false;" href="#">About</a><strong class="hover"></strong></li>
+								<li class=" men4"><a onClick="goToByScroll('page5'); return false;" href="#">Contacts</a> <strong class="hover"></strong></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+<!--=======content================================-->
+		<div id="page1" class="content">
+			<div class="ic">More Website Templates @ TemplateMonster.com - September 9, 2013!</div>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slider_wrapper">
+						<ul class="items">
+							<li>
+								<img src="/static/images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2>Financial literacy education in Africa</h2>
+								</div>
+							</li>
+							<li>
+								<img src="/static/images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2>Afrincubate : accelerator for startups</h2>
+								</div>
+							</li>
+							<li>
+								<img src="/static/images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2>Socially conscious investment in enterprise</h2>
+								</div>
+							</li>
+							<li>
+								<img src="/static/images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2>Making Africa a better place</h2>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="socials">
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="page3" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>Programs</h3>
+						<div class="text1">
+							<p>Afrinovate is the premier financial innovation lab in East Africa. We look to grow financial innovation across various platforms and empower the lives of the people of East Africa.</p>
+<p>Check out the various programs we have below!</p>
+						</div>
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1" style="background-color:#898B27;border-color:#ddd">
+						<img src="/static/images/flag.png" alt="">
+						<div class="text1"><a onclick="inspire_africa()">Inspire Africa</a></div>Regional program which is reaching out the youth with key insights and training on financial literacy.
+						<p style="padding-top:10px"><a onclick="inspire_africa()" class="read-more">Read More &raquo;</a></p>
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1" style="background-color:#898B27;border-color:#ddd">
+						<img src="/static/images/design.png" alt="">
+						<div class="text1"><a onclick="afrincubate()">Afrincubate</a></div>An accelerator for startups developing great solutions for markets within East Africa.
+						<p style="padding-top:10px"><a onclick="afrincubate()" class="read-more">Read More &raquo;</a></p>
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1" style="background-color:#898B27;border-color:#ddd">
+						<img src="/static/images/development.png" alt="">
+						<div class="text1"><a onclick="empower_africa()">Empower Africa</a></div>Providing impact investment advice across the East African region.
+						<p style="padding-top:10px"><a onclick="empower_africa()" class="read-more">Read More &raquo;</a></p>
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1" style="background-color:#898B27;border-color:#ddd">
+						<img src="/static/images/rocket.png" alt="">
+						<div class="text1"><a onclick="investor_links()">Investor Links</a></div>A program offering on-ground information about investment opportunities.
+						<p style="padding-top:10px"><a onclick="investor_links()" class="read-more">Read More &raquo;</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="page2" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>Meet The Team</h3>
+						<!--<div class="text1">
+							<a class="tm_link"> Click here</a> for more info about this free website template <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies
+
+						</div>-->
+					</div>
+				</div>
+				<div class="grid_3 grid_31">
+					<div class="box maxheight">
+						<img src="/static/images/dan.jpg" alt="" width="200" height="200">
+						<div class="text1"><a onclick="dan()">Dan Edoma</a></div>Co-founder and Director
+						<p style="padding-top:10px"><a onclick="dan()" class="read-more" style="color:#fff">Read More &raquo;</a></p>
+						<div class="socials1">
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_3 grid_31">
+					<div class="box maxheight">
+						<img src="/static/images/kennedy.jpg" alt="" width="200" height="200">
+						<div class="text1"><a onclick="kennedy()">Kennedy Mukuna</a></div>Co-founder and Director
+						<p style="padding-top:10px"><a onclick="kennedy()" class="read-more" style="color:#fff">Read More &raquo;</a></p>
+						<div class="socials1">
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_3 grid_31">
+					<div class="box maxheight">
+						<img src="/static/images/peter.jpg" alt="" width="200" height="200">
+						<div class="text1"><a onclick="peter()">Peter Benhur Nyeko </a></div>Co-founder and Director
+						<p style="padding-top:10px"><a onclick="peter()" class="read-more" style="color:#fff">Read More &raquo;</a></p>
+						<div class="socials1">
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="grid_3 grid_31">
+					<div class="box maxheight">
+						<img src="/static/images/pauline_1.JPG" alt="" width="200" height="200">
+						<div class="text1"><a onclick="pauline()">Pauline Mutumwinka</a></div>Co-founder and Director
+						<p style="padding-top:10px"><a onclick="pauline()" class="read-more" style="color:#fff">Read More &raquo;</a></p>
+						<div class="socials1">
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="page5" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>Get in Touch</h3>
+						<div class="text1">
+							<p>We would love to hear from you!</p><p>Hit us up on email, or drop us a message, and we will get back as soon as we can.</p>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="map">
+					<div class="grid_3">
+						<div class="text1">Address</div>
+						<address>
+							<dl>
+								<dt>Afrinovate Inc.<br>
+								UMA Show Ground,<br>
+								Royal House Ground Floor,<br>
+								Kampala Uganda.<br>
+								P.O.Box 6183, Kampala
+								</dt>
+								<!--<dd><span>Freephone:</span>+1 800 559 6580</dd>
+								<dd><span>Telephone:</span>+1 800 603 6035</dd>
+								<dd><span>FAX:</span>+1 800 889 9898</dd>-->
+								<dd>E-mail: <a href="#" class="link-1">info@afrinovate.org</a></dd>
+								<!--<dd>Skype: <a href="#" class="link-1">@kennedy_mukuna</a></dd>-->
+							</dl>
+						</address>
+					</div>
+					<div class="grid_3">
+						<div class="text1">&nbsp;</div>
+						<figure class="">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.752886419771!2d32.610082000000006!3d0.32814299999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbbebfa9d8617%3A0x82d64a3c7b72da12!2sUMA+Show+Ground!5e0!3m2!1sen!2s!4v1405955240017" width="600" height="450" frameborder="0" style="border:0"></iframe>
+						</figure>
+					</div>
+					<div class="grid_5 prefix_1">
+						<div class="text1">Ask a Question</div>
+						<form id="form">
+						<div class="success_wrapper">
+						<div class="success">Contact form submitted!<br>
+						<strong>We will be in touch soon.</strong> </div></div>
+						<fieldset>
+						<label class="name">
+						<input type="text" value="Name:">
+						<br class="clear">
+						<span class="error error-empty">*This is not a valid name.</span><span class="empty error-empty">*This field is required.</span> </label>
+						<label class="email">
+						<input type="text" value="E-mail:">
+						<br class="clear">
+						<span class="error error-empty">*This is not a valid email address.</span><span class="empty error-empty">*This field is required.</span> </label>
+						<label class="message">
+						<textarea>Message:</textarea>
+						<br class="clear">
+						<span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
+						<div class="clear"></div>
+						<div class="btns"><a data-type="submit" class="link1">Send</a>
+						<div class="clear"></div>
+						</div></fieldset></form>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="copy">
+						<a onClick="goToByScroll('page1'); return false;" href="#">Afrinovate<!--<img src="/static/images/footer_logo.png" alt="">--></a>  &copy; 2015 | <a href="#">Privacy Policy</a> <!--<br> Website done by <a href="" rel="nofollow">John Wamburu</a>--> <br> Empowering the lives of the people of East Africa.
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+	</body>
+</html>
